@@ -1,0 +1,21 @@
+ body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #1a64ae;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    #password-display {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    #password-length {
+      width: 60%;
+      margin: 20px auto;
+    }
