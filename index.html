@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generate Password</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Password Generator</h2>
+  
+  <div class="form-group">
+    <label for="password-length">Password Length: <span id="password-length-value">12</span></label>
+    <input type="range" class="form-control-range" id="password-length" min="6" max="20" value="12" oninput="updatePasswordLength(this.value)">
+  </div>
+  
+  <div id="password-display"></div>
+  
+  <button class="btn btn-primary" onclick="generatePassword()">Generate Password</button>
+  <button class="btn btn-success" onclick="copyToClipboard()">Copy to Clipboard</button>
+  <div id="feedback-message" class="mt-2"></div>
+</div>
+
+<script src="">
+
+</script>
+
+</body>
+</html>
